@@ -14,6 +14,7 @@ chmod 0600 ~/.gem/credentials
 set -x
 
 echo "Installing dependencies..."
+gem update bundler
 bundle install
 
 echo "Running gem release task..."
