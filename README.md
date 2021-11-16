@@ -37,7 +37,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Release Gem
-        uses: discourse/publish-rubygems-action@v2-beta
+        uses: discourse/publish-rubygems-action@v2
         env:
           RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
           RELEASE_COMMAND: rake release
