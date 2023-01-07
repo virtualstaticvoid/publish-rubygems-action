@@ -27,4 +27,4 @@ bundle install
 
 echo "Running gem release task..."
 rake build
-gem push pkg/#{gem_name}-#{gem_version}.gem
+gem push pkg/${gem_name}-${gem_version}.gem
